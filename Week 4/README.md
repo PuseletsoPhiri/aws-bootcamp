@@ -43,13 +43,15 @@ Key takeaways
 
 Screenshots / Evidence
 **VPC-A and VPC-B with their CIDR blocks**
-![VPCs and CIDR blocks](screenshots/vpcs-cidr-blocks.png)
+<img width="1910" height="931" alt="Screenshot 2026-07-26 134129" src="https://github.com/user-attachments/assets/64de1013-9b70-4b42-bbb3-007058956b41" />
+<img width="1916" height="966" alt="Screenshot 2026-07-26 134233" src="https://github.com/user-attachments/assets/cb124f8b-d2d9-4826-a10a-0f755d226be1" />
 
 **Public and private subnets in each VPC**
-![Subnets in each VPC](screenshots/subnets-per-vpc.png)
+<img width="1917" height="957" alt="Screenshot 2026-07-27 093653" src="https://github.com/user-attachments/assets/4532274f-f3d0-46ee-aca4-43889aef3aae" />
 
 **VPC peering connection — Active status**
-![Peering connection active](screenshots/peering-connection-active.png)
+<img width="1912" height="961" alt="Screenshot 2026-07-27 094000" src="https://github.com/user-attachments/assets/bd866cf3-a0e8-4fa6-b6a9-d988a8c7d7f7" />
 
 **Route tables with routes to the peer VPC's CIDR block**
-![Route tables with peering routes](screenshots/route-tables-peering.png)
+<img width="1917" height="965" alt="Screenshot 2026-07-27 094217" src="https://github.com/user-attachments/assets/1c4a1a35-5036-45b5-9115-92357b038bc6" />
+<img width="1915" height="967" alt="Screenshot 2026-07-27 094155" src="https://github.com/user-attachments/assets/427ccfbc-d7cf-4dd7-8c43-5e2a4bd45387" />

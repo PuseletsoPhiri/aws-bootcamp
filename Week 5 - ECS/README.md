@@ -1,4 +1,4 @@
-# Week 5 — Deploying Containerized Applications with Amazon ECS
+v# Week 5 — Deploying Containerized Applications with Amazon ECS
 
 **Topic:** Deploying Containerized Applications Using Amazon ECS, Load Balancers, and Task Definitions
 **Original session date:** July 12, 2025
@@ -30,12 +30,21 @@ browser — this loaded the Grafana login page. Logged in using the
 default credentials (`admin` / `admin`).
 
 ## Issues encountered
--The ECS task initially remained in a PENDING state longer than expected before transitioning to RUNNING. 
--This was resolved by allowing additional time for the Fargate task to provision and pull the Docker image.
--The Security Group was not initially configured with an inbound rule for port 3000, which prevented the Grafana login page from loading in the browser. 
--This was resolved by adding the correct inbound rule for port 3000.
--The Fargate task did not initially have a public IP assigned, which meant it could not be reached directly from the browser. This was resolved by enabling "Auto-assign public IP" when configuring the service/task in the public subnet.
--On first login with the default credentials (admin/admin), Grafana prompted for the password to be changed before granting access to the dashboard.
+- The ECS task initially remained in a **PENDING** state longer than
+  expected before transitioning to RUNNING. This was resolved by
+  allowing additional time for the Fargate task to provision and
+  pull the Docker image.
+- The Security Group was not initially configured with an inbound
+  rule for port 3000, which prevented the Grafana login page from
+  loading in the browser. This was resolved by adding the correct
+  inbound rule for port 3000.
+- The Fargate task did not initially have a public IP assigned, which
+  meant it could not be reached directly from the browser. This was
+  resolved by enabling "Auto-assign public IP" when configuring the
+  service/task in the public subnet.
+- On first login with the default credentials (`admin`/`admin`),
+  Grafana prompted for the password to be changed before granting
+  access to the dashboard.
 
 ## Key takeaways
 - Fargate removes the need to provision or manage EC2 instances for

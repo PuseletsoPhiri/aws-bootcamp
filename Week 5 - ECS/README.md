@@ -1,4 +1,4 @@
-v# Week 5 — Deploying Containerized Applications with Amazon ECS
+# Week 5 — Deploying Containerized Applications with Amazon ECS
 
 **Topic:** Deploying Containerized Applications Using Amazon ECS, Load Balancers, and Task Definitions
 **Original session date:** July 12, 2025

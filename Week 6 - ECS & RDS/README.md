@@ -26,7 +26,7 @@ variables it needs to connect to PostgreSQL:
 | `MB_DB_DBNAME` | metabase |
 | `MB_DB_PORT` | (`5432`) |
 | `MB_DB_USER` | postgres |
-| `MB_DB_PASS` | Database password |
+| `MB_DB_PASS` | ******** |
 | `MB_DB_HOST` |  |
 
 Set the RDS Security Group's inbound rule to allow PostgreSQL traffic

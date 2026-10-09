@@ -6,7 +6,7 @@
 # Goals
 - [x] Create IAM users and groups
 - [x] Attach a permissions policy to a group
-- [x]Log in and authenticate as an IAM user
+- [x] Log in and authenticate as an IAM user
 - [x] Create and assume an IAM role
 - [x] Set up MFA
 

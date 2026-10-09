@@ -8,14 +8,13 @@ Each week has its own folder with a README covering the task, how I did it, issu
 
 | Week | Topic | Status | Notes |
 |------|-------|--------|-------|
-| 1 | Orientation, Cloud Computing and AWS Fundamentals | ✅ Done | [Week 1](Week-1-2-cloud-fundamentals-iam) |
-| 2 | IAM: users, groups, roles and policies | ✅ Done | [Week 2](Week-1-2-cloud-fundamentals-iam) |
+| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week 1&2-cloud-fundamentals&iam) |
 | 3 | EC2 and Security Groups (Windows Server, RDP) | ✅ Done | [Week 3](Week-3-ec2-security-groups) |
 | 4 | VPCs, subnets and VPC peering | ✅ Done | [Week 4](Week-4-vpc-peering) |
 | 5 | ECS with Fargate (Grafana) | ✅ Done | [Week 5](Week-5-ecs-grafana) |
 | 6 | ECS connected to RDS PostgreSQL (Metabase) | ✅ Done | [Week 6](Week-6-ecs-rds-metabase) |
 | 7 | CloudWatch monitoring of an ECS service | ✅ Done | [Week 7](Week-7-cloudwatch-monitoring) |
-| 8 | To be added | ⬜ started | |
+| 8 | To be added | ⬜ Started | |
 | 9 | To be added | ⬜ Not started | |
 | 10 | To be added | ⬜ Not started | |
 | 11 | Revision and Q&A | ➖ No task | Session only, no hands-on task |

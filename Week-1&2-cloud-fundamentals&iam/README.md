@@ -1,16 +1,16 @@
-Week 2 — AWS IAM
+## Week 2 — AWS IAM
 
-Topic: Identity and Access Management for secure user, role, and policy management
-Original session date: June 14, 2026
+**Topic:** Identity and Access Management for secure user, role, and policy management
+**Original session date:** June 14, 2026
 
-Goals
--Create IAM users and groups
--Attach a permissions policy to a group
--Log in and authenticate as an IAM user
--Create and assume an IAM role
--Set up MFA
+# Goals
+- [x] Create IAM users and groups
+- [x] Attach a permissions policy to a group
+- [x]Log in and authenticate as an IAM user
+- [x] Create and assume an IAM role
+- [x] Set up MFA
 
-What I did
+# What I did
 Created an IAM group and one user (`Puseletso`), then attached the
 `AIOpsReadOnlyAccess` managed policy to the group. Logged out of the
 root account and signed in as the IAM user to confirm the credentials
@@ -32,10 +32,10 @@ IAM → Groups → detached `AIOpsReadOnlyAccess` and attached the
 general `ReadOnlyAccess` managed policy instead.
 
 Logged back in as `Puseletso` and re-tested:
--Viewing/describing EC2 instances → (fill in: worked / didn't work)
--Launching a new EC2 instance → (fill in: still denied, as expected)
+-Viewing/describing EC2 instances → (it worked)
+-Launching a new EC2 instance → (still denied, as expected)
 
-Key takeaways
+## Key takeaways
 - `ReadOnlyAccess` grants list/describe (view) permissions across
   most AWS services, but still correctly blocks any create, modify,
   or delete action including `ec2:RunInstances`.

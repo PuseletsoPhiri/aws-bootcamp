@@ -83,10 +83,13 @@ Final outcome: once the service was running, I reached the Metabase setup screen
 **ECS running service**
 <img width="1911" height="945" alt="Screenshot 2026-10-08 093550" src="https://github.com/user-attachments/assets/0cfabfd0-dce6-443b-85b2-d4a2ef6c45a6" />
 
-
 **Security group rules allowing ECS to RDS on port 5432**
 <img width="1907" height="955" alt="Screenshot 2026-10-08 093629" src="https://github.com/user-attachments/assets/be1b8753-8841-412d-a4ad-22af09524774" />
 
-
 **Metabase setup screen confirming database connection**
 <img width="1908" height="967" alt="Screenshot 2026-10-08 101239" src="https://github.com/user-attachments/assets/c43d966a-2338-49a0-b5d5-088e2cf60301" />
+
+## Cleanup
+After completing and documenting this task, I deleted the resources
+I created to stay within AWS Free Tier limits and avoid unexpected
+charges. Resources removed: ECS service and cluster, load balancer and target group, RDS PostgreSQL instance, the Security Groups created for them.

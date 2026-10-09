@@ -74,3 +74,8 @@ default credentials (`admin` / `admin`).
 <img width="1913" height="947" alt="Screenshot 2026-08-02 165006" src="https://github.com/user-attachments/assets/7d5e6545-ad8b-4ec3-92a7-030e22bdeeae" />
 <img width="1905" height="962" alt="Screenshot 2026-08-02 165141" src="https://github.com/user-attachments/assets/ef313967-5e68-420f-ba08-2db227ef7d77" />
 
+## Cleanup
+After completing and documenting this task, I deleted the resources
+I created to stay within AWS Free Tier limits and avoid unexpected
+charges. Resources removed: ECS service and cluster, the task definition, the Security Group created for it.
+

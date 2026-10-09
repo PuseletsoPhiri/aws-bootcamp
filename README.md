@@ -8,7 +8,7 @@ Each week has its own folder with a README covering the task, how I did it, issu
 
 | Week | Topic | Status | Notes |
 |------|-------|--------|-------|
-| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week 1&2-cloud-fundamentals&iam) |
+| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week-1&2-cloud-fundamentals&iam) |
 | 3 | EC2 and Security Groups (Windows Server, RDP) | ✅ Done | [Week 3](Week-3-ec2-security-groups) |
 | 4 | VPCs, subnets and VPC peering | ✅ Done | [Week 4](Week-4-vpc-peering) |
 | 5 | ECS with Fargate (Grafana) | ✅ Done | [Week 5](Week-5-ecs-grafana) |

@@ -49,6 +49,10 @@ I stimulated the load by refreshing the app
   being stopped, while setting them too high wastes money, which is
   why monitoring is useful for right-sizing.
 
+## Cleanup
+
+After completing and documenting this task, I deleted the resources I created to stay within AWS Free Tier limits and avoid unexpected charges. Resources removed: ECS service and cluster, the CloudWatch dashboard.
+
 ## Screenshots / Evidence
 **ECS cluster and running service**
 <img width="1907" height="940" alt="Screenshot 2026-10-09 102909" src="https://github.com/user-attachments/assets/93858da2-3342-4048-a88e-48945d4ff9eb" />

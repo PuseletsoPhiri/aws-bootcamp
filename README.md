@@ -14,7 +14,7 @@ Each week has its own folder with a README covering the task, how I did it, issu
 | 5 | ECS with Fargate (Grafana) | ✅ Done | [Week 5](Week-5-ecs-grafana) |
 | 6 | ECS connected to RDS PostgreSQL (Metabase) | ✅ Done | [Week 6](Week-6-ecs-rds-metabase) |
 | 7 | CloudWatch monitoring of an ECS service | ✅ Done | [Week 7](Week-7-cloudwatch-monitoring) |
-| 8 | To be added | ⬜ Started | |
+| 8 | S3 and CloudFront static website hosting | ✅ Done | [Week 8](Week-8-s3-cloudfront-static-web-hosting) |
 | 9 | To be added | ⬜ Not started | |
 | 10 | To be added | ⬜ Not started | |
 | 11 | Revision and Q&A | ➖ No task | Session only, no hands-on task |

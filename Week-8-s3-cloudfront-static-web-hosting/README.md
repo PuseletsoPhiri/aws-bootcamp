@@ -63,7 +63,7 @@ bucket with its files.
 <img width="1888" height="881" alt="Screenshot 2026-10-11 170651" src="https://github.com/user-attachments/assets/73d5b366-fad1-4f53-a0ce-bbe89ed19cc6" />
 
 **Bucket policy allowing public access**
-<img width="1892" height="881" alt="Screenshot 2026-10-11 170844" src="https://github.com/user-attachments/assets/d2645b11-ec1e-45ef-9a27-abdb9e501c1e" />
+
 
 **CloudFront distribution settings and Deployed status**
 <img width="1886" height="822" alt="Screenshot 2026-10-11 171919" src="https://github.com/user-attachments/assets/0ebd62b1-5e17-4e5c-8ac3-e126ff77392d" />

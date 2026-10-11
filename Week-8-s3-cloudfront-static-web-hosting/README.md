@@ -1,0 +1,72 @@
+# Week 8 — Static Website Hosting with Amazon S3 and CloudFront
+
+**Topic:** Managing Static and Dynamic Content Delivery with Amazon S3 and CloudFront Integration
+**Original session date:** July 26, 2025
+
+## Goals
+- [x] Build a simple personal static website (a resume page)
+- [x] Upload the HTML files to an Amazon S3 bucket
+- [x] Enable static website hosting on the bucket
+- [x] Configure the bucket for public access with an appropriate bucket policy
+- [x] Create a CloudFront distribution that uses the S3 bucket as its origin
+- [x] Access the live website through the CloudFront domain
+
+## What I did
+Built a simple **HTML and CSS resume page** to use as the static site.
+
+Created an S3 bucket and uploaded the website files to it, then
+enabled **static website hosting** in the bucket's properties,
+setting the index document to my resume page. To make the content
+readable by visitors, I turned off the bucket's block public access
+setting and added a **bucket policy** allowing public read access to
+the objects.
+
+Next, I created a **CloudFront distribution** with the S3 bucket as
+its origin, so the site is delivered through CloudFront's global edge
+network instead of directly from S3. Once the distribution's status
+changed to **Deployed**, I opened the site using the CloudFront domain
+name and confirmed the resume loaded correctly.
+
+| Setting | Value used |
+|---------|-----------|
+| Bucket name | (csn-static-website-resume-puseletso) |
+| Index document | (`index.html`) |
+| CloudFront origin | (csn-static-website-resume-puseletso.s3-website-us-east-1.amazonaws.com) |
+| Viewer protocol policy | (Redirect HTTP to HTTPS) |
+
+
+## Key takeaways
+- S3 can host a static website with no servers to manage, but a
+  bucket serving a site publicly needs both block public access
+  turned off and a bucket policy that grants read access.
+- CloudFront sits in front of S3 and serves cached copies from edge
+  locations close to visitors, which improves load times and lets the
+  site be served over HTTPS on the CloudFront domain.
+- A new distribution takes a few minutes to reach the **Deployed**
+  status, and the CloudFront domain won't work reliably until it does.
+- CloudFront caches content, so after changing a file in S3 an old
+  version can keep appearing until the cache expires or an
+  invalidation is created.
+- A public bucket policy keeps the files readable straight from S3
+  as well as through CloudFront. A tighter setup keeps the bucket
+  private and lets only CloudFront read it using origin access
+  control, which I want to try next.
+
+## Cleanup
+After completing and documenting this task, I deleted the resources
+I created to stay within AWS Free Tier limits and avoid unexpected
+charges. Resources removed: the CloudFront distribution, and the S3
+bucket with its files.
+
+## Screenshots / Evidence
+**S3 bucket with static website hosting enabled**
+<img width="1888" height="881" alt="Screenshot 2026-10-11 170651" src="https://github.com/user-attachments/assets/73d5b366-fad1-4f53-a0ce-bbe89ed19cc6" />
+
+**Bucket policy allowing public access**
+<img width="1892" height="881" alt="Screenshot 2026-10-11 170844" src="https://github.com/user-attachments/assets/d2645b11-ec1e-45ef-9a27-abdb9e501c1e" />
+
+**CloudFront distribution settings and Deployed status**
+<img width="1886" height="822" alt="Screenshot 2026-10-11 171919" src="https://github.com/user-attachments/assets/0ebd62b1-5e17-4e5c-8ac3-e126ff77392d" />
+
+**Live website served through the CloudFront domain**
+<img width="1886" height="952" alt="Screenshot 2026-10-11 171341" src="https://github.com/user-attachments/assets/4e03a50e-88f4-40c6-bf97-a05c0e54867b" />

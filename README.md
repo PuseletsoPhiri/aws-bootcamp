@@ -20,7 +20,7 @@ Each week has its own folder with a README covering the task, how I did it, issu
 | 11 | Revision and Q&A | ➖ No task | Session only, no hands-on task |
 | 12 | Bootcamp recap, career readiness and AMA | ➖ No task | Session only, no hands-on task |
 
-Still ahead: S3 and CloudFront, Route 53 and ACM, and Lambda (Weeks 8 to 10). Weeks 11 and 12 were revision and Q&A sessions with no tasks, so they have no folders in this repo.
+Still ahead: Route 53 and ACM, and Lambda (Weeks 9 to 10). Weeks 11 and 12 were revision and Q&A sessions with no tasks, so they have no folders in this repo.
 
 ## Skills practised so far
 - **Identity and access:** IAM users, groups and managed policies
@@ -29,6 +29,7 @@ Still ahead: S3 and CloudFront, Route 53 and ACM, and Lambda (Weeks 8 to 10). We
 - **Containers:** ECS with Fargate, task definitions, services, load balancers and target groups
 - **Databases:** RDS PostgreSQL, security group rules between ECS and RDS
 - **Monitoring:** CloudWatch dashboards for CPU and memory metrics
+- **Storage and content delivery:** S3 static website hosting, bucket policies, CloudFront distributions
 - **Troubleshooting:** diagnosing stuck ECS deployments, task execution roles, and health checks
 
 ## How the repo is organised
@@ -37,9 +38,9 @@ Each week has its own folder holding a README with the write-up, the weekly task
 ```
 aws-bootcamp/
 ├── README.md
-├── Week-1-2-cloud-fundamentals-iam/
+├── Week-1&2-cloud-fundamentals&iam/
 │   ├── README.md
-│   └── Screenshot-1.png ... Screenshot-6.png
+│   └── weekly_tasks_1_and_2.png
 ├── Week-3-ec2-security-groups/
 │   ├── README.md
 │   └── AWS_Bootcamp_Week_3_Task.png
@@ -52,8 +53,12 @@ aws-bootcamp/
 ├── Week-6-ecs-rds-metabase/
 │   ├── README.md
 │   └── Week-6-Task.png
-└── Week-7-cloudwatch-monitoring/
-    └── README.md
+├── Week-7-ecs-cloudwatch-monitoring/
+│   ├── README.md
+│   └── Week-7-Task.png
+└── Week-8-s3-cloudfront-static-web-hosting/
+    ├── README.md
+    └── week-8-task.png
 ```
 
 ## Cost control

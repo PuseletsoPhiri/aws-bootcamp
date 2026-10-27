@@ -8,21 +8,21 @@ Each week has its own folder with a README covering the task, how I did it, issu
 
 | Week | Topic | Status | Notes |
 |------|-------|--------|-------|
-| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week-1&2-cloud-fundamentals&iam) |
+| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week-1%262-cloud-fundamentals%26iam) |
 | 3 | EC2 and Security Groups (Windows Server, RDP) | ✅ Done | [Week 3](Week-3-ec2-security-groups) |
 | 4 | VPCs, subnets and VPC peering | ✅ Done | [Week 4](Week-4-vpc-peering) |
 | 5 | ECS with Fargate (Grafana) | ✅ Done | [Week 5](Week-5-ecs-grafana) |
 | 6 | ECS connected to RDS PostgreSQL (Metabase) | ✅ Done | [Week 6](Week-6-ecs-rds-metabase) |
-| 7 | CloudWatch monitoring of an ECS service | ✅ Done | [Week 7](Week-7-cloudwatch-monitoring) |
+| 7 | CloudWatch monitoring of an ECS service | ✅ Done | [Week 7](Week-7-ecs-cloudwatch-monitoring) |
 | 8 | S3 and CloudFront static website hosting | ✅ Done | [Week 8](Week-8-s3-cloudfront-static-web-hosting) |
-| 9 | To be added | ⬜ Not started | |
-| 10 | To be added | ⬜ Not started | |
+| 9 | Custom domain with Route 53 and HTTPS with ACM | ✅ Done | [Week 9](Week-9-route53-acm-custom-domain) |
+| 10 | Event-driven Lambda function triggered by S3 uploads | ✅ Done | [Week 10](Week-10-s3-lambda-event-trigger) |
 | 11 | Revision and Q&A | ➖ No task | Session only, no hands-on task |
 | 12 | Bootcamp recap, career readiness and AMA | ➖ No task | Session only, no hands-on task |
 
-Still ahead: Route 53 and ACM, and Lambda (Weeks 9 to 10). Weeks 11 and 12 were revision and Q&A sessions with no tasks, so they have no folders in this repo.
+All hands-on tasks are complete. Weeks 11 and 12 were revision and Q&A sessions with no tasks, so they have no folders in this repo.
 
-## Skills practised so far
+## Skills practised
 - **Identity and access:** IAM users, groups and managed policies
 - **Compute:** launching and securing EC2 instances, connecting through RDP and Fleet Manager
 - **Networking:** VPCs, public and private subnets, route tables, VPC peering
@@ -30,10 +30,12 @@ Still ahead: Route 53 and ACM, and Lambda (Weeks 9 to 10). Weeks 11 and 12 were 
 - **Databases:** RDS PostgreSQL, security group rules between ECS and RDS
 - **Monitoring:** CloudWatch dashboards for CPU and memory metrics
 - **Storage and content delivery:** S3 static website hosting, bucket policies, CloudFront distributions
-- **Troubleshooting:** diagnosing stuck ECS deployments, task execution roles, and health checks
+- **DNS and security:** Route 53 hosted zones and alias records, ACM certificates with DNS validation, HTTPS on a custom domain
+- **Serverless and event-driven:** Lambda functions in Python triggered by S3 events, with logs in CloudWatch
+- **Troubleshooting:** diagnosing stuck ECS deployments, task execution roles, health checks, and DNS resolution problems
 
 ## How the repo is organised
-Each week has its own folder holding a README with the write-up, the weekly task sheet, and the screenshots used as evidence. Weeks 1 and 2 share one folder.
+Each week has its own folder holding a README with the write-up and the weekly task sheet. Weeks 1 and 2 share one folder.
 
 ```
 aws-bootcamp/
@@ -56,9 +58,15 @@ aws-bootcamp/
 ├── Week-7-ecs-cloudwatch-monitoring/
 │   ├── README.md
 │   └── Week-7-Task.png
-└── Week-8-s3-cloudfront-static-web-hosting/
+├── Week-8-s3-cloudfront-static-web-hosting/
+│   ├── README.md
+│   └── week-8-task.png
+├── Week-9-route53-acm-custom-domain/
+│   ├── README.md
+│   └── Week-9-Task.png
+└── Week-10-s3-lambda-event-trigger/
     ├── README.md
-    └── week-8-task.png
+    └── week-10-task.png
 ```
 
 ## Cost control

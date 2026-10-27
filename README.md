@@ -15,7 +15,7 @@ Each week has its own folder with a README covering the task, how I did it, issu
 | 6 | ECS connected to RDS PostgreSQL (Metabase) | ✅ Done | [Week 6](Week-6-ecs-rds-metabase) |
 | 7 | CloudWatch monitoring of an ECS service | ✅ Done | [Week 7](Week-7-ecs-cloudwatch-monitoring) |
 | 8 | S3 and CloudFront static website hosting | ✅ Done | [Week 8](Week-8-s3-cloudfront-static-web-hosting) |
-| 9 | Custom domain with Route 53 and HTTPS with ACM | ✅ Done | [Week 9](Week-9-route53-acm-custom-domain) |
+| 9 | Custom domain with Route 53 and HTTPS with ACM | ✅ Done | [Week 9](Week-9-route-53-acm-custom-domain) |
 | 10 | Event-driven Lambda function triggered by S3 uploads | ✅ Done | [Week 10](Week-10-s3-lambda-event-trigger) |
 | 11 | Revision and Q&A | ➖ No task | Session only, no hands-on task |
 | 12 | Bootcamp recap, career readiness and AMA | ➖ No task | Session only, no hands-on task |

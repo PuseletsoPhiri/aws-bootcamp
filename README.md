@@ -8,7 +8,7 @@ Each week has its own folder with a README covering the task, how I did it, issu
 
 | Week | Topic | Status | Notes |
 |------|-------|--------|-------|
-| 1 and 2 | Cloud Computing and AWS Fundamentals, IAM (users, groups, roles and policies) | ✅ Done | [Weeks 1 and 2](Week-1%262-cloud-fundamentals%26iam) |
+| 1 and 2 | AWS account setup and IAM access control (users and the SecurityAudit policy) | ✅ Done | [Weeks 1 and 2](Week-1&2-cloud-fundamentals-iam) |
 | 3 | EC2 and Security Groups (Windows Server, RDP) | ✅ Done | [Week 3](Week-3-ec2-security-groups) |
 | 4 | VPCs, subnets and VPC peering | ✅ Done | [Week 4](Week-4-vpc-peering) |
 | 5 | ECS with Fargate (Grafana) | ✅ Done | [Week 5](Week-5-ecs-grafana) |
@@ -69,6 +69,9 @@ aws-cloud-portfolio/
     └── week-10-task.png
 ```
 
+## What I'm doing now
+With the bootcamp tasks complete, I've shifted to hands-on cloud projects on [NextWork](https://www.nextwork.org) to deepen my foundations.
+
 ## Cost control
 After documenting each task, I delete the resources I created so the account stays within AWS Free Tier limits and avoids unexpected charges. Each week's README lists what was removed.
 
@@ -79,4 +82,4 @@ I'm Puseletso Phiri, an IT graduate from South Africa building skills in AWS Clo
 - Email: khalabiphiri@protonmail.com
 
 ## Acknowledgements
-Curriculum and weekly tasks by [CloudSec Network (CSN)](https://www.cloudsecnetwork.com). Additional learning resources: [Learn to Cloud](https://learntocloud.guide), the [AWS Skills Center](https://aws.amazon.com/training/skills-center/), and [NextWork](https://www.nextwork.org).
+Curriculum and weekly tasks by [CloudSec Network (CSN)](https://www.cloudsecnetwork.com). 

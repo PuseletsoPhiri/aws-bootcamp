@@ -34,8 +34,6 @@ central place to manage workforce access. I then:
    they can sign in through the AWS access portal with auditing
    permissions only.
 
-(fill in: the user and permission set names you used, and whether you
-signed in as the new user through the access portal to test it.)
 
 ## Additional practice: classic IAM users and groups
 Beyond the task, I practised with regular IAM to see how policies

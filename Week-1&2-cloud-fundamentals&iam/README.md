@@ -113,5 +113,5 @@ As an extra challenge, I used the same IAM user (`csn-intern-puseletso`), detach
 <img width="1343" height="412" alt="Screenshot 2026-10-31 091311" src="https://github.com/user-attachments/assets/b27854ea-e403-495a-96d0-6fedcf59f106" />
 
 **Additional practice: EC2 launch denied with the wrong policy**
-
+<img width="1525" height="531" alt="Screenshot 2026-10-31 152935" src="https://github.com/user-attachments/assets/ba6eccba-a160-45f2-bc2a-1e4926d0cbdc" />
 

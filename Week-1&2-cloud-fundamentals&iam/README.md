@@ -62,8 +62,6 @@ behave:
   led to the EC2 access error described above. I resolved it by
   reading the policy's actual permissions and switching to
   `ReadOnlyAccess`.
-- (fill in: any issues with account creation or Identity Center setup,
-  or delete this line if there were none.)
 
 ## Key takeaways
 - Identity Center manages access centrally: users get permissions

@@ -32,7 +32,7 @@ limits, I did not enable it. Instead, I achieved the same access pattern
 with standard IAM:
 
 1. Created an IAM user named csn-intern-puseletso.
-2. Attached the AWS-managed **'SecurityAudit'** job function policy directly to the user, which gives read-focused access suited to security auditing.
+2. Attached the AWS-managed **`SecurityAudit`** job function policy directly to the user, which gives read-focused access suited to security auditing.
 3. Tested the policy with the **IAM Policy Simulator**. I selected **Access Analyzer** as the service, **selected all of its actions**, and ran the simulation. The results listed each action as allowed or denied, which showed exactly what the user can and cannot do with the the `SecurityAudit` permissions.
 
 **Results:** The simulator showed `GetAnalyzedResource` as **allowed**
@@ -43,7 +43,7 @@ grants only a specific set of Access Analyzer permissions, not full
 access to the service.
 
 ## Additional practice: read-only policies
-I also practised with read-only policies to see how they behave:
+As an extra challenge, I used the same IAM user (`csn-intern-puseletso`), detached `SecurityAudit`, and tested two other policies one after the other to see how they behave:
 
 - Attached the `AIOpsReadOnlyAccess` managed policy to a group
   containing my IAM user, then logged out of the root account and
